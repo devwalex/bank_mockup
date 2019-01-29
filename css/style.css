@@ -1,0 +1,53 @@
+@import url('../lib/css/custom.css');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.alert{
+    font-size: 12px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.alert strong{
+    color: #FBBA00;
+}
+.bg-dark {
+    background-color: #2e434e!important;
+}
+.close{
+    height: 20px;
+    color: #FBBA00 !important;
+    text-shadow: none; 
+    opacity: 1;
+}
+.navbar{
+    font-size: 14px;
+    background-color: white !important;
+    color: #435762;
+
+}
+.nav-bt{
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 23px;
+    background-color: #FBBA00;
+    color: #435762;
+}
+.second{
+    border-top: 1px solid #dadada; 
+    font-size: 14px;
+}
+.second li.nav-item{
+    padding: 5px 14px 5px 13px;
+
+}
+.second li.nav-item.active{
+    border-bottom: 6px solid #FBBA00;
+
+}
+.second .nav-link {
+    color: #435762 !important;
+    padding: 11px;
+}
