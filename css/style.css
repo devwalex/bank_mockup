@@ -47,7 +47,28 @@ body{
     border-bottom: 6px solid #FBBA00;
 
 }
-.second .nav-link {
+.second .nav-link{
     color: #435762 !important;
     padding: 11px;
+}
+.carousel-indicators li{
+    width: 11px;
+    height: 11px;
+    border-bottom: 0;
+    border-top: 0;
+    background-color: #ffffff !important;
+    border-radius: 50%;
+    background-clip: border-box;
+    opacity: 1;
+}
+.carousel-indicators {
+    bottom: 38px;
+    right: unset;
+}
+.carousel-indicators .active {
+    background-color: #FBBA00 !important;
+}
+.carousel-caption{
+    text-align: left;
+    bottom: 200px;
 }
