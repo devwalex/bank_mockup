@@ -25,6 +25,7 @@ body{
     font-size: 14px;
     background-color: white !important;
     color: #435762;
+    padding-bottom: 0;
 
 }
 .nav-bt{
@@ -70,5 +71,23 @@ body{
 }
 .carousel-caption{
     text-align: left;
-    bottom: 200px;
+    bottom: 140px;
+}
+.left-style {
+    border-left: 5px solid #FBBA00;
+    padding: 5px 0 5px 20px;
+}
+.left-style-bottom {
+    padding: 10px 0 5px 20px;
+}
+.left-style-bottom h6{
+    padding-bottom: 25px;
+}
+.left-style-bottom button{
+    padding: 12px 20px;
+}
+
+footer{
+    background-color: #435762;
+    color: #ffffff;
 }
