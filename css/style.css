@@ -90,4 +90,17 @@ body{
 footer{
     background-color: #435762;
     color: #ffffff;
+    font-size: 12px;
+    padding-top: 100px;
+}
+footer ul li{
+    padding: 7px 0;
+    list-style: none;
+}
+.col-md-2{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+footer ul{
+    padding-left: 0;
 }
